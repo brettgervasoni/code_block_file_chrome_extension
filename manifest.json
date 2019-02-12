@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "js": [ "fix.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Fix for overlapping scrollbars on one line code blocks, which prevents the user from reading them. Adjusts line-height of one line code blocks to 35px.",
+   "manifest_version": 2,
+   "name": "Fix One Line Code Blocks",
+   "permissions": [ "http://*/*", "https://*/*" ],
+   "version": "1.0",
+   "author": "Brett Gervasoni"
+}
